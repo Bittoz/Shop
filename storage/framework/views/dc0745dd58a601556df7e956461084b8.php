@@ -1,0 +1,2 @@
+<meta name="keywords" content="<?php echo e($allsettings->site_keywords); ?>">
+<meta name="description" content="<?php echo e($allsettings->site_desc); ?>"><?php /**PATH /home/arixmyii/bittoz.shop/public_html/resources/views/meta.blade.php ENDPATH**/ ?>
