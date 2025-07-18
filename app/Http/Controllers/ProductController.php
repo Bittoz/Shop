@@ -98,7 +98,7 @@ class ProductController extends Controller
 				}
 				else
 				{
-				$filename = public_path().'/storage/product/'.$item['data']->product_file;
+				$filename = public_path().'/storage/product/'.basename($item['data']->product_file);
 				$headers = ['Content-Type: application/octet-stream'];
 				$new_name = uniqid().time().'.zip';
 				return response()->download($filename,$new_name,$headers);
